@@ -24,7 +24,7 @@ public class HomeController {
     model.addAttribute("locationStats",allStats);
     model.addAttribute("toalReportdCases",toalReportdCases);
     model.addAttribute("toalNewCases",toalNewCases);
-    return "home";
+    return "index";
   }
 
 }
